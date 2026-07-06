@@ -58,3 +58,67 @@ EmbodiedAI
 │   └── Robot States
 │
 └── 🧠 High-Level API
+````
+
+---
+
+## 📊 Experimental Results
+
+The framework was evaluated through ten paired experiments.
+
+| Metric                        | Improvement     |
+| ----------------------------- | --------------- |
+| 📉 Lines of Code (LOC)        | 51.4% reduction |
+| 📉 Cyclomatic Complexity (CC) | 58.3% reduction |
+
+These results indicate that EmbodiedAI significantly reduces implementation effort while maintaining functionality.
+
+---
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/vitor-souza-ime/embodied-ai-g1-edu.git
+
+cd embodied-ai-g1-edu
+
+pip install -r requirements.txt
+```
+
+---
+
+## 🎯 Example
+
+```python
+from embodied_ai import EmbodiedAI
+
+robot = EmbodiedAI()
+
+detections = robot.detect_objects()
+
+for obj in detections:
+    print(obj.label, obj.confidence)
+```
+
+---
+
+## 📖 Citation
+
+```bibtex
+@article{souza2026embodiedai,
+  title={EmbodiedAI: A Hardware Abstraction Layer for the Unitree G1 EDU},
+  author={Souza, Vitor Amadeu and collaborators},
+  year={2026}
+}
+```
+
+---
+
+## 👨‍💻 Author
+
+**Vitor Amadeu Souza**
+
+🏛️ Military Institute of Engineering (IME)
+
+🇧🇷 Rio de Janeiro, Brazil
+
